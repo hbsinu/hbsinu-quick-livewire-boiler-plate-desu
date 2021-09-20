@@ -1,0 +1,175 @@
+
+Geo-eventing 
+
+Beacon 
+
+Customer Journey 
+
+Retain 
+
+Build Funnel 
+
+Detail Oriented  : Tracking every event in 
+                   the funnel of the App Ops life-cycle 
+
+Acquisition :    
+                Events 
+                - Visit Site  @tracking 
+                - Visit Time Spent  @tracking 
+                - Completed action 
+                    ( Our case downloads and booking )  @tracking 
+
+                Channel Optim 
+                - Website 
+                    - Services 
+                    - Booking 
+                    - Downloadables
+                - Website SEO 
+                - Socials 
+                - Oustide Events / Publicity
+                - Refferals 
+
+                Action 
+                - JTBD model of arranging Content 
+                - Slide Ad Pop Ups on key Pages 
+                    - Services 
+                    - Home Page 
+                - Contact Sheet 
+                - Sales Process 
+                - *Add App Demo  
+                - "Cold calls" Email List 
+                    from download forms contact forms
+                     @tracking 
+                - experiment with different Channels
+
+                Metric 
+                    CAC vs LTV 
+
+                    LIV - how much value a customer is 
+                        to us in over a period. 
+                        and projections if retained 
+                        after contract
+
+                Attribution 
+                -  Track Download 
+                -  Track which Page get more engagement - Pages that did right with JTBD
+                -  Track which Service gets Booking Upgrade - pro-active approach 
+                -  How it works? 
+                -  Rinse and Repeat 
+
+Activation : 
+                Get Specific
+                
+                - Onboarding Process 
+                    - benefit Oriented On-Boarding  
+                    - progressive on-Boarding
+                    - Information Acquisition
+                    - Create App Account for Clients
+
+                    - Visting # of Pages (
+                        Which tools get more use 
+                        Which tools aren't 
+                        Analyze and Identify problems
+                        Create Action Item 
+                        Ask for Feedback
+                    )  @tracking 
+                    - total amount of time spent in a _SESSION 
+                - Start User Journey
+                - Tack Using Event Tags
+                - Reinforcement by Engagement
+                - Push Notification 
+                - 1st Milestone 
+
+
+
+Retention : 
+            compound month-to-month growth
+            MAU - Vanity metric could be good but not substantial
+
+            GAU - Genuine active user 
+
+            Engagement Tools  / Define Core Functions :
+                   Marketing Metrics and Analytics Module
+                 , Task Management sub-Module 
+                 , Contact List sub-Module
+                 , Emailing Tool sub-Module
+                 , Reports sub-Module
+
+
+            Users Journey :
+                Duration of the User completing the core Functions
+
+            Cohort Analysis
+
+            7 day target for retention
+
+Referral : 
+
+            Be Deliberrate 
+            
+            Offer Insentive System 
+                - w/ Dollar Value , Needs to have proper advice from Org for Budget. 
+                - w/o Dollar Vlaue  : 
+                        Can Be Tools Pages, QOL Improvements , 
+                        Replacing Vanity Metrics for Actionable Metrics.
+                        Add more Tools and modules for customers.
+                            
+            Leave a Review of services, Feedback of the App , Feedback of their Team. 
+            Give Refferal codes for the incentive System, 
+            track the Refferals from each customer 
+
+Revenue : 
+            Premium Acquisition 
+                Premium Upgrade
+                More JTBD micro-funnels scattered within the app  
+
+
+            Login 
+                This Account is issued after the success of the Onboarding Process 
+
+            Updates and Release
+                This are constant improvements and added tools to the website 
+                that will improve Client's way of managing their teams in VBP
+    
+            Push Notification
+                These are notification emails about changes in the 
+                site or updates that a user will get when
+                they have dropped activity in the App
+
+            Feedback
+                This is an engagement method
+                That is inline the JTBD theory that 
+                promotes client intimacy which in result in Quality of life improvement 
+                for the Client base by way of updates and changes 
+                to the App.
+
+            Tracking 
+                Spend per Customer 
+                Discounts 
+                Refund 
+                Gross Margin 
+                Gross Profit Margin = 
+                Revenue−Cost of Goods Sold / Revenue 
+​               
+                CAC (Customer Acquisitions Cost) VS LTV ( Life Time Value) 
+
+Software as a Service - 
+Lord Kelvin - Liquid Compass
+"If you can not measure it, you cannot improve it"
+
+Net ARR ( Annual Recurring Revenue ) 
+         - Brand new Client
+         - Expansion Client  (Expansion)
+         - Churned Client ( Subtract Lost Customers)
+
+
+        Conversion Goals
+
+        Considered as Acquired 
+         On Boarding Process 
+        granular targeting
+
+        Review metrics : 
+                Monthly - first few Renditions of the App  
+                Bi-weekly - Solid user base , properly segmented development process
+                weekly - Fully deployed Usecase 
