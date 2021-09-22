@@ -1,7 +1,7 @@
 version: '3'
 
 networks:
-  laravel:
+  livewiresnippet:
 
 services:
   # site:
@@ -19,30 +19,30 @@ services:
   #     - mysql
   #     - mailhog
   #   networks:
-  #     - laravel
+  #     - livewiresnippet
 
-  mysql:
-    image: mysql:5.7.29
-    container_name: mysql
-    restart: unless-stopped
-    tty: true
-    ports:
-      - 3308:3306
-    volumes:
-      - ./mysql:/var/lib/mysql
-    environment:
-      MYSQL_DATABASE: homestead
-      MYSQL_USER: homestead
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
-      SERVICE_TAGS: dev
-      SERVICE_NAME: mysql
-    networks:
-      - laravel
+  # mysql:
+  #   image: mysql:5.7.29
+  #   container_name: mysql
+  #   restart: unless-stopped
+  #   tty: true
+  #   ports:
+  #     - 3308:3306
+  #   volumes:
+  #     - ./mysql:/var/lib/mysql
+  #   environment:
+  #     MYSQL_DATABASE: homestead
+  #     MYSQL_USER: homestead
+  #     MYSQL_PASSWORD: secret
+  #     MYSQL_ROOT_PASSWORD: secret
+  #     SERVICE_TAGS: dev
+  #     SERVICE_NAME: mysql
+  #   networks:
+  #     - livewiresnippet
 
-  mysqltest:
+  db:
     image: mysql:5.7.29
-    container_name: mysqltest
+    container_name: db
     restart: unless-stopped
     tty: true
     ports:
@@ -57,7 +57,7 @@ services:
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     networks:
-      - laravel
+      - livewiresnippet
 
 
   # php:
@@ -68,16 +68,16 @@ services:
   #   volumes:
   #     - ./src:/var/www/html:delegated
   #   networks:
-  #     - laravel
+  #     - livewiresnippet
 
-  redis:
+  lw-redis:
     image: redis:alpine
-    container_name: redis
+    container_name: lw-redis
     restart: unless-stopped
     ports:
-      - 6379:6379
+      - 6378:6379
     networks:
-      - laravel
+      - livewiresnippet
 
   # composer:
   #   build:
@@ -92,7 +92,7 @@ services:
   #   user: laravel
   #   entrypoint: ['composer', '--ignore-platform-reqs']
   #   networks:
-  #     - laravel
+  #     - livewiresnippet
 
   # npm:
   #   image: node:latest
@@ -105,7 +105,7 @@ services:
   #   working_dir: /var/www/html
   #   entrypoint: ['npm']
   #   networks:
-  #     - laravel
+  #     - livewiresnippet
 
   # artisan:
   #   build:
@@ -120,13 +120,13 @@ services:
   #   user: laravel
   #   entrypoint: ['php', '/var/www/html/artisan']
   #   networks:
-  #     - laravel
+  #     - livewiresnippet
 
-  mailhog:
+  lw-mailhog:
     image: mailhog/mailhog:latest
-    container_name: mailhog
+    container_name: lw-mailhog
     ports:
-      - 1025:1025
-      - 8025:8025
+      - 1027:1025
+      - 8027:8025
     networks:
-      - laravel
+      - livewiresnippet

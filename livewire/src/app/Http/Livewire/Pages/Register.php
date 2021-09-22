@@ -17,14 +17,6 @@ class Register extends Component
 
     public $passwordConfirmation = '';
 
-
-    public function updated()
-    {
-
-        $this->validate(['email' => 'unique:users']);
-
-    }
-
     public function render()
     {
         return view('livewire.pages.register')

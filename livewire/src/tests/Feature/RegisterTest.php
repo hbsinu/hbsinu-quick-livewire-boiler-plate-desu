@@ -162,25 +162,4 @@ class RegisterTest extends TestCase
 
         ->assertHasErrors(['password' => 'same']);
     }
-
-    /** @test */
-    public function email_unique_real_time_validation()
-    {
-        User::create([
-            'email' => 'hans@gmail.com',
-            'name' => 'hans',
-            'password' => Hash::make('password'),
-        ]);
-
-        Livewire::test('pages.register')
-
-        ->set('email', 'han@gmail.com')
-
-        ->assertHasNoErrors()
-
-        ->set('email', 'hans@gmail.com')
-
-        ->assertHasErrors(['email' => 'unique']);
-
-    }
 }
