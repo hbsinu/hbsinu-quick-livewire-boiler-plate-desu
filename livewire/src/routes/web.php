@@ -14,13 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-/**
- * App Routes
- */
-Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', Dashboard::class);
-    Route::get('/profile', Profile::class);
-});
+
 
 /**
  * Authentication
@@ -33,7 +27,13 @@ Route::middleware('guest')->group(function () {
 });
 
 
-
+/**
+ * App Routes
+ */
+Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', Dashboard::class);
+    Route::get('/lvprofile', Profile::class);
+});
 
 Auth::routes(['register' => true]);
 
