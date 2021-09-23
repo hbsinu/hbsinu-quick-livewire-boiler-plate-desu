@@ -13,10 +13,27 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/signup', Register::class)->name('public.signup');
+
+/**
+ * App Routes
+ */
+Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', Dashboard::class);
+    Route::get('/profile', Profile::class);
+});
+
+/**
+ * Authentication
+ */
+Route::middleware('guest')->group(function () {
+    Route::get('/login', Login::class)->name('auth.login');
+    // Route::redirect('/', '/login');
+    Route::get('/signup', Register::class)->name('public.signup');
+
+});
 
 
-Route::redirect('/', '/login');
+
 
 Auth::routes(['register' => true]);
 
